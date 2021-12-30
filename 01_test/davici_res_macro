@@ -1,0 +1,507 @@
+{
+	Tools = ordered() {
+		Sidebar_14 = GroupOperator {
+			CtrlWZoom = false,
+			CustomData = {
+				Path = {
+					Map = {
+						["Setting:"] = "Templates:/Edit/Generators/Sidebars/"
+					}
+				},
+			},
+			Inputs = ordered() {
+				Input1 = InstanceInput {
+					SourceOp = "ColorControl_1",
+					Source = "TopLeftRed",
+					Name = "Color",
+					ControlGroup = 1,
+					Default = 0.537814992,
+				},
+				Input2 = InstanceInput {
+					SourceOp = "ColorControl_1",
+					Source = "TopLeftGreen",
+					ControlGroup = 1,
+					Default = 0.309738,
+				},
+				Input3 = InstanceInput {
+					SourceOp = "ColorControl_1",
+					Source = "TopLeftBlue",
+					ControlGroup = 1,
+					Default = 0.858,
+				},
+				Input4 = InstanceInput {
+					SourceOp = "ColorControl_1",
+					Source = "TopLeftAlpha",
+					ControlGroup = 1,
+					Default = 1,
+				},
+				Input5 = InstanceInput {
+					SourceOp = "ColorControl_02",
+					Source = "TopLeftRed",
+					Name = "Color",
+					ControlGroup = 2,
+					Default = 0.953,
+				},
+				Input6 = InstanceInput {
+					SourceOp = "ColorControl_02",
+					Source = "TopLeftGreen",
+					ControlGroup = 2,
+					Default = 0.41932,
+				},
+				Input7 = InstanceInput {
+					SourceOp = "ColorControl_02",
+					Source = "TopLeftBlue",
+					ControlGroup = 2,
+					Default = 0.41932,
+				},
+				Input8 = InstanceInput {
+					SourceOp = "ColorControl_02",
+					Source = "TopLeftAlpha",
+					ControlGroup = 2,
+					Default = 1,
+				},
+				Input9 = InstanceInput {
+					SourceOp = "DropShadow1_1",
+					Source = "shadowStrength",
+					Default = 0.213,
+				},
+				Input10 = InstanceInput {
+					SourceOp = "DropShadow1_1",
+					Source = "shadowAngle",
+					Default = -87,
+				},
+				Input11 = InstanceInput {
+					SourceOp = "DropShadow1_1",
+					Source = "ShadowDistance",
+					MaxScale = 0.2000000029802,
+					Default = 0.0500000007450581,
+				},
+				Input12 = InstanceInput {
+					SourceOp = "DropShadow1_1",
+					Source = "shadowBlur",
+					Default = 0.795,
+				},
+				Input13 = InstanceInput {
+					SourceOp = "DropShadow1_1",
+					Source = "shadowColorRed",
+					Name = "Color",
+					ControlGroup = 7,
+					Default = 0,
+				},
+				Input14 = InstanceInput {
+					SourceOp = "DropShadow1_1",
+					Source = "shadowColorGreen",
+					Name = "Color",
+					ControlGroup = 7,
+					Default = 0,
+				},
+				Input15 = InstanceInput {
+					SourceOp = "DropShadow1_1",
+					Source = "shadowColorBlue",
+					Name = "Color",
+					ControlGroup = 7,
+					Default = 0,
+				},
+				Input16 = InstanceInput {
+					SourceOp = "DropShadow1_2",
+					Source = "shadowStrength",
+					Default = 0.213,
+				},
+				Input17 = InstanceInput {
+					SourceOp = "DropShadow1_2",
+					Source = "shadowAngle",
+					Default = -87,
+				},
+				Input18 = InstanceInput {
+					SourceOp = "DropShadow1_2",
+					Source = "ShadowDistance",
+					MaxScale = 0.2000000029802,
+					Default = 0.0500000007450581,
+				},
+				Input19 = InstanceInput {
+					SourceOp = "DropShadow1_2",
+					Source = "shadowBlur",
+					Default = 0.795,
+				},
+				Input20 = InstanceInput {
+					SourceOp = "DropShadow1_2",
+					Source = "shadowColorRed",
+					Name = "Color",
+					ControlGroup = 12,
+					Default = 0,
+				},
+				Input21 = InstanceInput {
+					SourceOp = "DropShadow1_2",
+					Source = "shadowColorGreen",
+					Name = "Color",
+					ControlGroup = 12,
+					Default = 0,
+				},
+				Input22 = InstanceInput {
+					SourceOp = "DropShadow1_2",
+					Source = "shadowColorBlue",
+					Name = "Color",
+					ControlGroup = 12,
+					Default = 0,
+				}
+			},
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					SourceOp = "Resize1_1",
+					Source = "Output",
+				},
+				Output2 = InstanceOutput {
+					SourceOp = "Path1_4",
+					Source = "Heading",
+				},
+				Output1 = InstanceOutput {
+					SourceOp = "Path1_1_2",
+					Source = "Heading",
+				}
+			},
+			ViewInfo = GroupInfo { Pos = { 417.333, 134.636 } },
+			Tools = ordered() {
+				ColorControl_1 = Background {
+					CtrlWShown = false,
+					NameSet = true,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Rectangle1_5",
+							Source = "Mask",
+						},
+						GlobalOut = Input { Value = 149, },
+						Width = Input { Value = 1920, },
+						Height = Input { Value = 1080, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input { Value = 0.537814992, },
+						TopLeftGreen = Input { Value = 0.309738, },
+						TopLeftBlue = Input { Value = 0.858, },
+					},
+					ViewInfo = OperatorInfo { Pos = { -543.69, 33.4826 } },
+				},
+				ColorControl_02 = Background {
+					CtrlWShown = false,
+					NameSet = true,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Rectangle1_1_2",
+							Source = "Mask",
+						},
+						GlobalOut = Input { Value = 149, },
+						Width = Input { Value = 1920, },
+						Height = Input { Value = 1080, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+						TopLeftRed = Input { Value = 0.953, },
+						TopLeftGreen = Input { Value = 0.41932, },
+						TopLeftBlue = Input { Value = 0.41932, },
+					},
+					ViewInfo = OperatorInfo { Pos = { -513.659, 54.8116 } },
+				},
+				DropShadow1_1 = ofx.com.blackmagicdesign.resolvefx.DropShadow {
+					CtrlWShown = false,
+					Inputs = {
+						Source = Input {
+							SourceOp = "Transform2_2",
+							Source = "Output",
+						},
+						shadowStrength = Input { Value = 0.213, },
+						shadowAngle = Input { Value = -87, },
+						ShadowDistance = Input { Value = 0.0500000007450581, },
+						shadowBlur = Input { Value = 0.795, },
+						shadowColorRed = Input { Value = 0, },
+						shadowColorGreen = Input { Value = 0, },
+						shadowColorBlue = Input { Value = 0, },
+						isLegacyComp = Input { Value = 1, },
+						blendGroup = Input { Value = 1, },
+						blendIn = Input { Value = 1, },
+						blend = Input { Value = 0, },
+						ignoreContentShape = Input { Value = 0, },
+						legacyIsProcessRGBOnly = Input { Value = 0, },
+						refreshTrigger = Input { Value = 1, },
+						resolvefxVersion = Input { Value = "1.1", },
+					},
+					ViewInfo = OperatorInfo { Pos = { -458.085, 85.2576 } },
+				},
+				Rectangle1_1_2 = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Center = Input { Value = { 0.143835616438356, 0.5 }, },
+						Height = Input { Value = 1.634146, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 10.7099, 88.0436 } },
+				},
+				DropShadow1_2 = ofx.com.blackmagicdesign.resolvefx.DropShadow {
+					CtrlWShown = false,
+					Inputs = {
+						Source = Input {
+							SourceOp = "Merge2_3",
+							Source = "Output",
+						},
+						shadowStrength = Input { Value = 0.213, },
+						shadowAngle = Input { Value = -87, },
+						ShadowDistance = Input { Value = 0.0500000007450581, },
+						shadowBlur = Input { Value = 0.795, },
+						shadowColorRed = Input { Value = 0, },
+						shadowColorGreen = Input { Value = 0, },
+						shadowColorBlue = Input { Value = 0, },
+						isLegacyComp = Input { Value = 1, },
+						blendGroup = Input { Value = 1, },
+						blendIn = Input { Value = 1, },
+						blend = Input { Value = 0, },
+						ignoreContentShape = Input { Value = 0, },
+						legacyIsProcessRGBOnly = Input { Value = 0, },
+						refreshTrigger = Input { Value = 1, },
+						resolvefxVersion = Input { Value = "1.1", },
+					},
+					ViewInfo = OperatorInfo { Pos = { -405.074, 114.043 } },
+				},
+				Background2_1_2 = Background {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Rectangle2_1_1",
+							Source = "Mask",
+						},
+						GlobalOut = Input { Value = 149, },
+						Width = Input { Value = 1920, },
+						Height = Input { Value = 1080, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 120.71, 38.7376 } },
+				},
+				Merge1_1_2 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Background = Input {
+							SourceOp = "Background2_1_2",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "ColorControl_02",
+							Source = "Output",
+						},
+						Operator = Input { Value = FuID { "In" }, },
+						PerformDepthMerge = Input { Value = 0, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 120.71, 121.044 } },
+				},
+				Rectangle2_1_1 = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Center = Input {
+							SourceOp = "Path1_1_2",
+							Source = "Position",
+						},
+						Width = Input { Value = 0.5388349514563, },
+						Height = Input { Value = 1.155172, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 120.71, 7.20963 } },
+				},
+				Path1_1_2 = PolyPath {
+					DrawMode = "InsertAndModify",
+					CtrlWZoom = false,
+					Inputs = {
+						Displacement = Input {
+							SourceOp = "Path1_1_2Displacement",
+							Source = "Value",
+						},
+						PolyLine = Input {
+							Value = Polyline {
+								Points = {
+									{ Linear = true, LockY = true, X = -0.834, Y = 0, RX = 0.178, RY = 0 },
+									{ Linear = true, LockY = true, X = -0.3, Y = 0, LX = -0.178, LY = 0 }
+								}
+							},
+						},
+					},
+				},
+				Path1_1_2Displacement = BezierSpline {
+					SplineColor = { Red = 255, Green = 0, Blue = 255 },
+					NameSet = true,
+					KeyFrames = {
+						[5] = { 0, RH = { 16.4, 0 }, Flags = { LockedY = true } },
+						[25] = { 1, LH = { 7.6, 1 }, RH = { 48.6642996072769, 1 }, Flags = { LockedY = true } },
+						[96] = { 1, LH = { 72.3357003927231, 1 }, RH = { 113.4, 1 } },
+						[116] = { 0, LH = { 104.6, 0 } }
+					}
+				},
+				Transform2_2 = Transform {
+					CtrlWShown = false,
+					Inputs = {
+						Angle = Input { Value = -90, },
+						FlipHoriz = Input { Value = 1, },
+						Edges = Input { Value = 2, },
+						Input = Input {
+							SourceOp = "Merge1_1_2",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 120.71, 189.313 } },
+				},
+				Rectangle2_2 = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Center = Input {
+							SourceOp = "Path1_4",
+							Source = "Position",
+						},
+						Width = Input { Value = 0.5388349514563, },
+						Height = Input { Value = 1.155172, },
+					},
+					ViewInfo = OperatorInfo { Pos = { -221.868, 208.471 } },
+				},
+				Path1_4 = PolyPath {
+					DrawMode = "InsertAndModify",
+					CtrlWZoom = false,
+					Inputs = {
+						Displacement = Input {
+							SourceOp = "Path1_4Displacement",
+							Source = "Value",
+						},
+						PolyLine = Input {
+							Value = Polyline {
+								Points = {
+									{ Linear = true, LockY = true, X = -0.834, Y = 0, RX = 0.178, RY = 0 },
+									{ Linear = true, LockY = true, X = -0.3, Y = 0, LX = -0.178, LY = 0 }
+								}
+							},
+						},
+					},
+				},
+				Path1_4Displacement = BezierSpline {
+					SplineColor = { Red = 255, Green = 0, Blue = 255 },
+					NameSet = true,
+					KeyFrames = {
+						[0] = { 0, RH = { 11.4, 0 }, Flags = { LockedY = true } },
+						[20] = { 1, LH = { 2.6, 1 }, RH = { 45.9973995685577, 1 }, Flags = { LockedY = true } },
+						[98] = { 1, LH = { 72.0026004314423, 1 }, RH = { 115.4, 1 } },
+						[118] = { 0, LH = { 106.6, 0 } }
+					}
+				},
+				Background2_4 = Background {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Rectangle2_2",
+							Source = "Mask",
+						},
+						GlobalOut = Input { Value = 149, },
+						Width = Input { Value = 1920, },
+						Height = Input { Value = 1080, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+					},
+					ViewInfo = OperatorInfo { Pos = { -221.868, 239.999 } },
+				},
+				Rectangle1_5 = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						Filter = Input { Value = FuID { "Fast Gaussian" }, },
+						MaskWidth = Input { Value = 1920, },
+						MaskHeight = Input { Value = 1080, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						ClippingMode = Input { Value = FuID { "None" }, },
+						Center = Input { Value = { 0.143835616438356, 0.5 }, },
+						Height = Input { Value = 1.634146, },
+					},
+					ViewInfo = OperatorInfo { Pos = { -331.868, 289.306 } },
+				},
+				Transform1_6 = Transform {
+					CtrlWShown = false,
+					Inputs = {
+						Center = Input { Value = { 0.5, 0.629310344827586 }, },
+						Angle = Input { Value = -90, },
+						FlipHoriz = Input { Value = 1, },
+						Edges = Input { Value = 2, },
+						Input = Input {
+							SourceOp = "Merge1_6",
+							Source = "Output",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { -109.913, 322.306 } },
+				},
+				Merge2_3 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Background = Input {
+							SourceOp = "Transform1_6",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "DropShadow1_1",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 56.2175, 322.306 } },
+				},
+				Merge1_6 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Background = Input {
+							SourceOp = "Background2_4",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "ColorControl_1",
+							Source = "Output",
+						},
+						Operator = Input { Value = FuID { "In" }, },
+						PerformDepthMerge = Input { Value = 0, },
+					},
+					ViewInfo = OperatorInfo { Pos = { -221.868, 322.306 } },
+				},
+				KeyframeStretcher1_3 = KeyStretcher {
+					CtrlWShown = false,
+					Inputs = {
+						Keyframes = Input {
+							SourceOp = "DropShadow1_2",
+							Source = "Output",
+						},
+						StretchStart = Input { Value = 30, },
+						StretchEnd = Input { Value = 90, },
+					},
+					ViewInfo = OperatorInfo { Pos = { 395.48, 322.306 } },
+				},
+				Resize1_1 = BetterResize {
+					CtrlWZoom = false,
+					CtrlWShown = false,
+					Inputs = {
+						Width = Input { Value = 1920, },
+						Height = Input { Value = 1080, },
+						UseFrameFormatSettings = Input { Value = 1, },
+						HiQOnly = Input { Value = 0, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Input = Input {
+							SourceOp = "KeyframeStretcher1_3",
+							Source = "Result",
+						},
+					},
+					ViewInfo = OperatorInfo { Pos = { 542, 322.306 } },
+				}
+			},
+		}
+	}
+}
