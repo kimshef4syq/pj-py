@@ -19,4 +19,3 @@ print(a1)
 dict1 = {'a':[1,43],'bc':2,'cd':3}
 _,x = dict1.get('a')
 print(x)
-print(12321212421214213)
