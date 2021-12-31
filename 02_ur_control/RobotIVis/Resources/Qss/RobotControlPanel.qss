@@ -1,0 +1,5 @@
+QWidget#RobotControlPanel {min-width: 280}
+QGroupBox#status_box_group {font: 10px; color: blue;}
+QGroupBox#status_box_group QLabel {font: 10px; color: #34495e;}
+QGroupBox#JogPanel QPushButton {max-width: 5ex; border: none; margin: 0px; font: bold} 
+QGroupBox#JogPanel QPushButton:pressed {background: green} 

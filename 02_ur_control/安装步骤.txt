@@ -1,0 +1,13 @@
+RobotIVis_2021_11_18__09_42.tar.gz 可放在 /home/rvbust/Rvbust/Sources/
+然后在该文件夹打开terminal
+运行：
+sudo tar -xvzf RobotIVis_2021_11_18__09_42.tar.gz 
+cd RobotVis
+./Install.sh
+
+
+sudo tar -xvzf RPS-0.1.1-Linux.tar.gz
+修改文件名，RPS-0.1.1-Linux改为RPS
+放到目录 /home/rvbust/Rvbust/Install/RVBUST/
+
+可将重名的文件夹删掉。

@@ -1,0 +1,5 @@
+QWidget#ProgramPanel {min-width: 310}
+QWidget#ProgramPanel QTreeWidget#ProgramTree {min-height: 400}
+QWidget#ProgramPanel QLabel#WaypointJointValueLabel {font: 10px}
+QWidget#ProgramPanel QLabel#WaypointPoseValueLabel {font: 10px}
+/* QWidget#ProgramPanel QDoubleSpinBox, QComboBox {max-width: 100px} */

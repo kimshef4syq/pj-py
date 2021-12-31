@@ -1,0 +1,4 @@
+* {font: 12px Arial}
+QPushButton {max-width: 10ex; border: 1px solid #6b9ac9; border-radius: 5px; font: 12px bold Arial; }
+QPushButton:hover {background: lightgreen; }
+QPushButton:pressed {background: green; }
